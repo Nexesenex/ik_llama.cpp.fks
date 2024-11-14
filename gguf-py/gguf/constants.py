@@ -1307,6 +1307,42 @@ class LlamaFileType(IntEnum):
     MOSTLY_IQ6_K         = 42, # except 1d tensors
     MOSTLY_IQ2_TN        = 43, # except 1d tensors
 
+//
+
+    # MOSTLY_TQ1_0         = 36  # except 1d tensors
+    # MOSTLY_TQ2_0         = 37  # except 1d tensors
+    MOSTLY_IQ2_XL        = 200 # except 1d tensors
+    MOSTLY_Q2_K_L        = 201 # except 1d tensors
+    MOSTLY_IQ1_XS        = 202 # except 1d tensors
+    MOSTLY_IQ1_XL        = 203 # except 1d tensors
+    MOSTLY_IQ3_S2L       = 204 # except 1d tensors
+    MOSTLY_IQ3_M3L       = 205 # except 1d tensors
+    MOSTLY_IQ3_X4L       = 206 # except 1d tensors
+    MOSTLY_IQ3_X5L       = 207 # except 1d tensors
+    MOSTLY_IQ3_X6L       = 208 # except 1d tensors
+    MOSTLY_IQ3_X7L       = 209 # except 1d tensors
+    MOSTLY_IQ3_EXL       = 210 # except 1d tensors
+    MOSTLY_IQ3_SXL       = 211 # except 1d tensors
+    MOSTLY_IQ3_UXL       = 212 # except 1d tensors
+    MOSTLY_Q3_K_XL       = 213 # except 1d tensors
+    MOSTLY_IQ4_XXSR      = 214 # except 1d tensors
+    MOSTLY_IQ4_XSR       = 215 # except 1d tensors
+    MOSTLY_IQ4_MR        = 216 # except 1d tensors
+    MOSTLY_IQ4_LR        = 217 # except 1d tensors
+    MOSTLY_Q5_K_XS1R     = 218 # except 1d tensors
+    MOSTLY_Q5_K_S2R      = 219 # except 1d tensors
+    MOSTLY_Q5_K_M3L      = 220 # except 1d tensors
+    MOSTLY_Q5_K_X4L      = 221 # except 1d tensors
+    MOSTLY_IQ3_X140L     = 240 # except 1d tensors
+    MOSTLY_IQ3_X141L     = 241 # except 1d tensors
+    MOSTLY_IQ3_X142L     = 242 # except 1d tensors
+    MOSTLY_IQ3_X143L     = 243 # except 1d tensors
+    MOSTLY_IQ3_X144L     = 244 # except 1d tensors
+    MOSTLY_IQ3_X145L     = 245 # except 1d tensors
+    MOSTLY_IQ3_X146L     = 246 # except 1d tensors
+    MOSTLY_IQ3_X147L     = 247 # except 1d tensors
+    MOSTLY_IQ3_X15L      = 250 # except 1d tensors
+    MOSTLY_CQS           = 299 # except 1d tensors
 
     GUESSED              = 1024  # not specified in the model file
 

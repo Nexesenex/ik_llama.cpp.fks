@@ -19493,7 +19493,8 @@ static void llama_model_quantize_internal(const std::string & fname_inp, const s
                     }
                 }
             }
-            if (!params->ignore_imatrix_rules && !imatrix &&
+
+/*             if (!params->ignore_imatrix_rules && !imatrix &&
                 (new_type == GGML_TYPE_IQ2_XXS ||
                  new_type == GGML_TYPE_IQ2_XXS_R4 ||
                  new_type == GGML_TYPE_IQ2_XS  ||
@@ -19508,7 +19509,7 @@ static void llama_model_quantize_internal(const std::string & fname_inp, const s
                 LLAMA_LOG_ERROR("The result will be garbage, so bailing out\n");
                 LLAMA_LOG_ERROR("============================================================\n\n");
                 throw std::runtime_error(format("Missing importance matrix for tensor %s in a very low-bit quantization", tensor->name));
-            }
+            } */
 
             float * f32_data;
 
